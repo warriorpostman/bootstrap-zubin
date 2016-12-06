@@ -1,0 +1,24 @@
+//
+// A simple Sass file.
+// 
+
+$main-color: #c5e2b1;
+$secondary-color: #e2b1c9;
+
+.standard-block {
+  background-color: $main-color;
+  border-radius: 6px;
+}
+
+.secondary-block {
+  background-color: $secondary-color;
+  border-radius: 6px;
+}
+
+.custom-container {
+  padding: 1em 1em 1em 1em;
+  background-color: darkgray;
+}
+.row {
+  padding-top: 1em;
+}

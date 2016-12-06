@@ -1,0 +1,9 @@
+@purple: #c780f7;
+
+.color-block {
+  /* background-color: @brand-primary; */
+  /* background-color: #42f4b3; */
+  background-color: @purple;
+  
+}
+
