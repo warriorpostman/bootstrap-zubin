@@ -4,6 +4,8 @@
 
 $main-color: #c5e2b1;
 $secondary-color: #e2b1c9;
+$header: #7688A9;
+$header-text-color: #051838;
 
 .standard-block {
   background-color: $main-color;
@@ -16,9 +18,27 @@ $secondary-color: #e2b1c9;
 }
 
 .custom-container {
-  padding: 1em 1em 1em 1em;
-  background-color: darkgray;
+  padding: 1em 1em 1em 3em;
+  border-radius: 10px;
+  background-color: #7688A9;
 }
+
+.header-title {
+  color: $header-text-color
+}
+
 .row {
   padding-top: 1em;
+}
+
+.navbar-custom .navlink {
+  color: $header-text-color;
+}
+.navbar-custom {
+  background-color: $header;
+  /* 
+   * TIP: Unset the background image to 
+   * override default color of the navbar 
+   */
+  background-image: none; 
 }
