@@ -5,7 +5,6 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Zubin's Bootstrap Demo</title>
-
       <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cerulean/bootstrap.min.css" rel="stylesheet">
       <link href="public/style/app.css" rel="stylesheet">
    </head>
@@ -13,19 +12,22 @@
    <body>
      <div class='navbar navbar-custom'>
        <div class='container'>
-       <ul class='nav nav-pills'>
-         <li class='navitem'>
-           <a class='navlink' href='#'>NavLink</a>
-        </li>
-         <li class='navitem'>
-           <a class='navlink' href='#'>SecondLink</a>
-        </li>
-      </ul>
+         <ul class='nav nav-pills'>
+           <li class='navitem'>
+             <a class='navlink' href='#'>Nav Link</a>
+           </li>
+           <li class='navitem'>
+             <a class='navlink' href='#'>Another Nav Link</a>
+           </li>
+           <li class='navitem'>
+             <button class='btn navbtn btn-default' href='#'>Nav Button</button>
+           </li>
+         </ul>
       </div>
      </div>
       <div class='container custom-container'>
         <div class='row'>
-          <h2 class='header-title'>Welcome to Bootstrap with Zubin!             <small>(Zubin is my dog)</small>
+          <h2 class='header-title'>Welcome to Bootstrap with Zubin! <small>(Zubin is my dog)</small>
           </h2>
         </div>
         <div class='row'>
@@ -39,12 +41,23 @@
           </div>
         </div>
         <div class='row'>
+          <div class='col-sm-2 standard-block'>
+            <p>These two columns will be reordered depending ond device type.
+          </div>
+          <div class='col-sm-push-3 col-xs-3 standard-block'>
+            <p>First in markup. We use Bootstrap's push/pull to reorder columns.</p>
+          </div>
+          <div class='col-sm-pull-3 col-xs-3 secondary-block'>
+            <p>Second in markup. This will show up first on larger devices, but second on smaller mobile devices!</p>
+          </div>
+        </div>
+        <div class='row'>
           <div class='col-xs-3 col-sm-2  col-sm-offset-1 standard-block'>
             <p>
             This is the second bootstrap 'row'.
             </p>
             <p>
-              An 'offset' to push the columns 1 grid column to the right.
+              Here we use an 'col-sm-offset-1' to push the columns 1 grid column to the right.
             </p>
           </div>
           <div class='col-xs-1 col-sm-1 standard-block'>
