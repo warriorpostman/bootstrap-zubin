@@ -2,13 +2,17 @@
 // A simple Sass file.
 // 
 
-$main-color: #c5e2b1;
+$main-background: #c5e2b1;
 $secondary-color: #e2b1c9;
 $header: #7688A9;
 $header-text-color: #051838;
 
+p {
+  font-size: .9em;
+}
+
 .standard-block {
-  background-color: $main-color;
+  background-color: $main-background;
   border-radius: 6px;
 }
 
