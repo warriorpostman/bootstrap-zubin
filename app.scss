@@ -4,8 +4,21 @@
 
 $main-background: #c5e2b1;
 $secondary-color: #e2b1c9;
-$header: #7688A9;
+$header-background: #abb6c9;
 $header-text-color: #051838;
+
+// TODO:
+// Hmm, this trick requires recompiling Bootstrap
+$grid-columns:               12 !default;
+$grid-gutter-width-base:     120px !default;
+$grid-gutter-widths: (
+  xs: $grid-gutter-width-base,
+  sm: $grid-gutter-width-base,
+  md: $grid-gutter-width-base,
+  lg: $grid-gutter-width-base,
+  xl: $grid-gutter-width-base
+) !default;
+
 
 p {
   font-size: .9em;
@@ -24,7 +37,7 @@ p {
 .custom-container {
   padding: 1em 1em 1em 3em;
   border-radius: 10px;
-  background-color: #7688A9;
+  background-color: $header-background;
 }
 
 .header-title {
@@ -39,7 +52,7 @@ p {
   color: $header-text-color;
 }
 .navbar-custom {
-  background-color: $header;
+  background-color: $header-background;
   /* 
    * TIP: Unset the background image to 
    * override default color of the navbar 
