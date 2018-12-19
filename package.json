@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-zubin",
+  "version": "1.0.0",
+  "description": "Bootstrap demonstration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warriorpostman/bootstrap-zubin.git"
+  },
+  "author": "Rustam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warriorpostman/bootstrap-zubin/issues"
+  },
+  "homepage": "https://github.com/warriorpostman/bootstrap-zubin#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7"
+  }
+}
