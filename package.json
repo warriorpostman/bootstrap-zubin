@@ -19,6 +19,6 @@
   "homepage": "https://github.com/warriorpostman/bootstrap-zubin#readme",
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "bootstrap-sass": "^3.3.7"
+    "bootstrap-sass": "^3.4.1"
   }
 }
